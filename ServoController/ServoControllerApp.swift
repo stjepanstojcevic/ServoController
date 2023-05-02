@@ -11,7 +11,7 @@ import SwiftUI
 struct ServoControllerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+            Model()
+            }
     }
 }

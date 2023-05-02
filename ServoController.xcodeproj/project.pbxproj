@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		FA194FB129F82F80001085EB /* ServoControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA194FB029F82F80001085EB /* ServoControllerApp.swift */; };
-		FA194FB329F82F80001085EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA194FB229F82F80001085EB /* ContentView.swift */; };
+		FA194FB329F82F80001085EB /* CVNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA194FB229F82F80001085EB /* CVNew.swift */; };
 		FA194FB529F82F81001085EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA194FB429F82F81001085EB /* Assets.xcassets */; };
 		FA194FB829F82F81001085EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA194FB729F82F81001085EB /* Preview Assets.xcassets */; };
+		FA28C27C29F9074D001AEC25 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28C27B29F9074D001AEC25 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA194FAD29F82F80001085EB /* ServoController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServoController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA194FB029F82F80001085EB /* ServoControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServoControllerApp.swift; sourceTree = "<group>"; };
-		FA194FB229F82F80001085EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA194FB229F82F80001085EB /* CVNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVNew.swift; sourceTree = "<group>"; };
 		FA194FB429F82F81001085EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA194FB729F82F81001085EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA28C27B29F9074D001AEC25 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		FA194FAF29F82F80001085EB /* ServoController */ = {
 			isa = PBXGroup;
 			children = (
+				FA28C27B29F9074D001AEC25 /* Model.swift */,
 				FA194FB029F82F80001085EB /* ServoControllerApp.swift */,
-				FA194FB229F82F80001085EB /* ContentView.swift */,
+				FA194FB229F82F80001085EB /* CVNew.swift */,
 				FA194FB429F82F81001085EB /* Assets.xcassets */,
 				FA194FB629F82F81001085EB /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA194FB329F82F80001085EB /* ContentView.swift in Sources */,
+				FA28C27C29F9074D001AEC25 /* Model.swift in Sources */,
+				FA194FB329F82F80001085EB /* CVNew.swift in Sources */,
 				FA194FB129F82F80001085EB /* ServoControllerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
